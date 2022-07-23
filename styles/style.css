@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(212, 22%, 14%);
+    --Dark-Blue-Variant: hsl(218, 17%, 19%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+body {
+    background-color: var(--Very-Dark-Blue);
+    font-family: 'Overpass', sans-serif;
+}
+
+main section {
+    background-color: var(--Dark-Blue);
+    height: 416px;
+    width: 400px;
+}
+
+.first-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.container-star {
+    width: 50px;
+    height: 50px;
+    background-color: var(--Dark-Blue-Variant);
+}
+.container-star img {
+    width: 17px;
+    height: 17px;
+}
+.container-title h1 {
+    font-size: 27px;
+    font-weight: 700;
+    color: var(--White);
+}
+.container-description p {
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--Light-Grey);
+}
+.container-numbers span {
+    color: var(--Medium-Grey);
+}
+.number {
+    width: 50px;
+    height: 50px;
+    background-color: var(--Dark-Blue-Variant);
+}
+.container-button button {
+    background-color: var(--Orange);
+}
+.container-button button span {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: var(--White);
+}
