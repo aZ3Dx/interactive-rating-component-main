@@ -19,7 +19,26 @@ body {
 main section {
     background-color: var(--Dark-Blue);
     height: 416px;
-    width: 400px;
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+footer {
+    font-size: 14px;
+    bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Orange);
+}
+
+footer a:focus {
+    color: var(--Medium-Grey);
+}
+
+footer a:active {
+    color: hsl(25, 78%, 44%);
 }
 
 /*====== START FIRST SECTION =======*/
@@ -85,6 +104,9 @@ main section {
 }
 
 /*Button States*/
+.container-button button:focus {
+    background-color: var(--Orange);
+}
 .container-button:hover button {
     background-color: var(--White);
 }
@@ -109,6 +131,9 @@ main section {
     padding-bottom: .3rem;
     color: var(--Orange);
 }
+.container-rate_text span span {
+    padding: 0;
+}
 .container-thanks_title h1 {
     color: var(--White);
     font-size: 28px;
@@ -121,3 +146,68 @@ main section {
 }
 
 /*====== FINISH SECOND SECTION =======*/
+
+@media (max-width: 375px) {
+
+    main section {
+        height: 370px;
+        border-radius: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+        bottom: 20px;
+    }
+
+    /*====== START FIRST SECTION =======*/
+
+    .first-section {
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    .container-star {
+        width: 42px;
+        height: 42px;
+    }
+    .container-star img {
+        width: 14px;
+        height: 14px;
+    }
+    .container-title h1 {
+        font-size: 24px;
+    }
+    .container-description p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .container-numbers span {
+        font-size: 13px;
+    }
+    .number {
+        width: 42px;
+        height: 42px;
+    }
+
+    .container-button button span {
+        font-size: 14px;
+    }
+
+    /*====== FINISH FIRST SECTION =======*/
+
+    /*====== START SECOND SECTION =======*/
+
+    .second-section {
+        padding: 2.5rem 1.6rem;
+    }
+    .container-rate_text span {
+        font-size: 14px;
+    }
+    .container-thanks_title h1 {
+        font-size: 24px;
+    }
+    .container-thanks_description p {
+        font-size: 14px;
+    }
+
+    /*====== FINISH SECOND SECTION =======*/
+}
