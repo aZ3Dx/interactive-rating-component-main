@@ -33,8 +33,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Here 🐱‍👤](https://github.com/aZ3Dx/product-preview-card-component-main)
-- Live Site URL: [Here 📟](https://az3dx.github.io/product-preview-card-component-main/)
+- Solution URL: [Here 🐱‍👤](https://github.com/aZ3Dx/interactive-rating-component-main)
+- Live Site URL: [Here 📟](https://az3dx.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -43,6 +43,7 @@ Mobile
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- JS
 - [Bootstrap](https://getbootstrap.com/) - Bootstrap framework
 
 ## Author
