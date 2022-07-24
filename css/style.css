@@ -22,6 +22,8 @@ main section {
     width: 400px;
 }
 
+/*====== START FIRST SECTION =======*/
+
 .first-section {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -48,12 +50,30 @@ main section {
 }
 .container-numbers span {
     color: var(--Medium-Grey);
+    padding-top: 4px;
 }
 .number {
+    cursor: pointer;
     width: 50px;
     height: 50px;
     background-color: var(--Dark-Blue-Variant);
 }
+
+/*Numbers States*/
+.number.active {
+    background-color: var(--Orange);
+}
+.number.number.active span {
+    color: var(--White);
+}
+
+.number:not(.active):hover{
+    background-color: var(--Medium-Grey);
+}
+.number:not(.active):hover span {
+    color: var(--White);
+}
+
 .container-button button {
     background-color: var(--Orange);
 }
@@ -63,3 +83,41 @@ main section {
     letter-spacing: 2px;
     color: var(--White);
 }
+
+/*Button States*/
+.container-button:hover button {
+    background-color: var(--White);
+}
+.container-button:hover button span {
+    color: var(--Orange);
+}
+
+/*====== FINISH FIRST SECTION =======*/
+
+/*====== START SECOND SECTION =======*/
+
+.second-section {
+    padding: 2.5rem 1.8rem;
+}
+.container-rate_text {
+    background-color: var(--Dark-Blue-Variant);
+}
+.container-rate_text span {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: .4rem;
+    padding-bottom: .3rem;
+    color: var(--Orange);
+}
+.container-thanks_title h1 {
+    color: var(--White);
+    font-size: 28px;
+    font-weight: 700;
+}
+.container-thanks_description p {
+    color: var(--Light-Grey);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*====== FINISH SECOND SECTION =======*/

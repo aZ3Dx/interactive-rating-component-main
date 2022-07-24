@@ -11,14 +11,14 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="vh-100 vw-100">
   
   <main class="h-100 d-flex justify-content-center align-items-center">
     <div>
 
-      <section class="first-section px-4 rounded-5 d-flex flex-column justify-content-between">
+      <section class="d-none first-section px-4 rounded-5 d-flex flex-column justify-content-between">
         <div class="container-star mb-4 d-inline-block rounded-circle d-flex justify-content-center align-items-center">
           <img src="images/icon-star.svg" alt="star">
         </div>
@@ -35,7 +35,7 @@
           <div class="number p-2 rounded-circle d-flex justify-content-center align-items-center"><span>2</span></div>
           <div class="number p-2 rounded-circle d-flex justify-content-center align-items-center"><span>3</span></div>
           <div class="number p-2 rounded-circle d-flex justify-content-center align-items-center"><span>4</span></div>
-          <div class="number p-2 rounded-circle d-flex justify-content-center align-items-center"><span>5</span></div>
+          <div class="number active p-2 rounded-circle d-flex justify-content-center align-items-center"><span>5</span></div>
         </div>
         <div class="container-button">
           <button class="btn btn-lg w-100 rounded-pill">
@@ -44,8 +44,23 @@
         </div>
       </section>
 
-      <section class="second-section d-none">
-
+      <section class="second-section rounded-5 d-flex flex-column justify-content-between">
+        <div class="container-img text-center">
+          <img src="images/illustration-thank-you.svg" alt="Thanks">
+        </div>
+        <div class="container-rate d-flex justify-content-center">
+          <div class="container-rate_text rounded-pill px-3">
+            <span class="d-inline-block">You selected 4 out of 5</span>
+          </div>
+        </div>
+        <div class="container-thanks">
+          <div class="container-thanks_title mb-3">
+            <h1 class="mb-0 text-center">Thank you!</h1>
+          </div>
+          <div class="container-thanks_description">
+            <p class="mb-0 text-center">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+          </div>
+        </div>
       </section>
 
     </div>
